@@ -943,6 +943,20 @@ button:focus-visible {
   margin-bottom: 28px;
 }
 
+/* ——— Product-built card (non-screenshot achievement) ——— */
+.achv-build-card {
+  margin-bottom: 40px;
+}
+
+.achv-build-card .card-title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.achv-build-card .brand-details {
+  margin-bottom: 4px;
+}
+
 /* ——— Featured proof (1-2 large screenshots per row) ——— */
 .proof-featured-row {
   display: grid;
