@@ -943,18 +943,19 @@ button:focus-visible {
   margin-bottom: 28px;
 }
 
-/* ——— Product-built card (non-screenshot achievement) ——— */
-.achv-build-card {
-  margin-bottom: 40px;
+/* ——— Quiet aside note ——— */
+.achv-aside {
+  text-align: center;
+  font-size: var(--text-sm);
+  font-style: italic;
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin: 0 auto 40px;
 }
 
-.achv-build-card .card-title {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-.achv-build-card .brand-details {
-  margin-bottom: 4px;
+.achv-aside span[aria-hidden] {
+  color: var(--accent);
+  font-style: normal;
 }
 
 /* ——— Featured proof (1-2 large screenshots per row) ——— */
