@@ -1707,6 +1707,30 @@ button:focus-visible {
   gap: 6px;
 }
 
+.cert-thumb {
+  display: block;
+  width: calc(100% + 56px);
+  margin: -28px -28px 14px;
+  height: 150px;
+  overflow: hidden;
+  background: var(--tag-bg);
+  border-radius: var(--radius-card) var(--radius-card) 0 0;
+  cursor: zoom-in;
+}
+
+.cert-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: transform var(--transition-slow);
+}
+
+.cert-thumb:hover img,
+.cert-thumb:focus-visible img {
+  transform: scale(1.04);
+}
+
 .cert-header {
   display: flex;
   align-items: center;
